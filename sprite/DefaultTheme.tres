@@ -1,0 +1,67 @@
+[gd_resource type="Theme" load_steps=7 format=2]
+
+[ext_resource path="res://font/default.tres" type="DynamicFont" id=1]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0.368627, 0.45098, 0.498039, 1 )
+corner_radius_top_left = 30
+corner_radius_bottom_right = 30
+corner_detail = 10
+expand_margin_left = 30.0
+expand_margin_right = 30.0
+shadow_color = Color( 0.0431373, 0.0313726, 0.0313726, 0.815686 )
+shadow_size = 9
+
+[sub_resource type="StyleBoxFlat" id=2]
+bg_color = Color( 0.113725, 0.352941, 0.494118, 1 )
+corner_radius_top_left = 30
+corner_radius_bottom_right = 30
+corner_detail = 10
+expand_margin_left = 30.0
+expand_margin_right = 30.0
+shadow_color = Color( 0.709804, 0.145098, 0.145098, 0.815686 )
+shadow_size = 9
+
+[sub_resource type="StyleBoxFlat" id=3]
+bg_color = Color( 0.113725, 0.352941, 0.494118, 1 )
+corner_radius_top_left = 30
+corner_radius_bottom_right = 30
+corner_detail = 10
+expand_margin_left = 30.0
+expand_margin_right = 30.0
+shadow_color = Color( 0.0431373, 0.0313726, 0.0313726, 0.815686 )
+shadow_size = 9
+
+[sub_resource type="StyleBoxFlat" id=4]
+bg_color = Color( 0.113725, 0.352941, 0.494118, 1 )
+corner_radius_top_left = 30
+corner_radius_bottom_right = 30
+corner_detail = 10
+expand_margin_left = 30.0
+expand_margin_right = 30.0
+shadow_color = Color( 0.0431373, 0.0313726, 0.0313726, 0.815686 )
+shadow_size = 9
+
+[sub_resource type="StyleBoxFlat" id=5]
+bg_color = Color( 0.0392157, 0.196078, 0.290196, 1 )
+corner_radius_top_left = 30
+corner_radius_bottom_right = 30
+corner_detail = 10
+expand_margin_left = 30.0
+expand_margin_right = 30.0
+shadow_color = Color( 0.0431373, 0.0313726, 0.0313726, 0.815686 )
+shadow_size = 9
+
+[resource]
+default_font = ExtResource( 1 )
+Button/colors/font_color = Color( 0.0509804, 0.054902, 0.0823529, 1 )
+Button/colors/font_color_disabled = Color( 0, 0, 0, 0.741176 )
+Button/colors/font_color_hover = Color( 0.141176, 0.231373, 0.960784, 1 )
+Button/colors/font_color_pressed = Color( 0.337255, 0.427451, 0.788235, 1 )
+Button/constants/hseparation = 2
+Button/fonts/font = null
+Button/styles/disabled = SubResource( 1 )
+Button/styles/focus = SubResource( 2 )
+Button/styles/hover = SubResource( 3 )
+Button/styles/normal = SubResource( 4 )
+Button/styles/pressed = SubResource( 5 )
